@@ -6,7 +6,7 @@ def my_each (collection) # put argument(s) here
   end 
     # code here
 end
-collection = [1, 2, 3, 4]
-my_each(collection) do |i|
+
+my_each([1, 2, 3, 4]) do |i|
   puts i
 end
